@@ -226,6 +226,10 @@ h2{
     margin-bottom: 48px;
 }
 
+.card a{
+    display: block;
+}
+
 .square{
     padding: 10px;
     color: #212529;
@@ -238,6 +242,7 @@ h2{
 
 .pagination{
     gap: 12px;
+    margin-bottom: 32px;
 }
 
 .left{
@@ -248,3 +253,81 @@ h2{
     font-weight: 500;
     background-color: #C0FA73;
 }
+
+.pagination li a:active{
+    font-weight: 500;
+    background-color: #C0FA73;
+}
+
+.pagination li a:hover{
+    color: #DEE2E6;
+}
+
+.ad-container{
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 64px;
+}
+
+.ad{
+    background-color: #E8FEC5;
+    padding-top: 33.5px;
+    padding-bottom: 33.5px;
+    align-items: center;
+    gap: 24px;
+}
+
+.ad a{
+    padding: 12px 24px;
+    background-color: #212529;
+    color: #FFF;
+    border-radius: 4px;
+}
+
+.ad a:hover{
+    background-color: #57A203;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #212529;
+    line-height: 1.2;
+}
+
+footer{
+    background-color: #F8F9FA;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.footer-nav{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.footer-item{
+    align-items: center;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #DEE2E6;
+}
+
+.copyright{
+    max-width: 1296px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.copyright-text{
+    text-align: center;
+}
+
+.copyright-text p{
+    color: #6C757D;
+    font-size: 14px;
+}
+
