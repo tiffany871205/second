@@ -88,8 +88,16 @@ p{
     display: flex;
 }
 
+.jcc{
+    justify-content: center;
+}
+
 .nav-left img{
     margin-right: 48px;
+}
+
+.nav-left{
+    align-items: center;
 }
 
 .nav-item a{
@@ -109,10 +117,14 @@ p{
     gap: 40px;
 }
 
-.nav-container a{
+.nav-container .member .member{
     color: #212529;
     margin-left: auto;
     padding: 12px;
+}
+
+.nav-container a{
+    margin-left: auto;
 }
 
 .main-container{
@@ -190,10 +202,49 @@ aside ul li a:active{
 
 .col-4{
     width: 33.33333%;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 h2{
     font-weight: 700;
     line-height: 1.2;
     color: #212529;
+}
+
+.product{
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.product-container{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.card{
+    margin-bottom: 48px;
+}
+
+.square{
+    padding: 10px;
+    color: #212529;
+}
+
+.single{
+    padding: 8px 12.5px;
+    color: #212529;
+}
+
+.pagination{
+    gap: 12px;
+}
+
+.left{
+    color: #DEE2E6;
+}
+
+.one{
+    font-weight: 500;
+    background-color: #C0FA73;
 }
