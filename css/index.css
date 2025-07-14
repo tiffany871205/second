@@ -230,6 +230,10 @@ h2{
     display: block;
 }
 
+.card img{
+    margin-bottom: 12px;
+}
+
 .square{
     padding: 10px;
     color: #212529;
