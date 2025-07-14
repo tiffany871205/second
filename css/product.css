@@ -73,7 +73,6 @@ p{
 }
 
 .wrap{
-    max-width: 1920px;
     margin: 0 auto;
     padding: 12px;
 }
@@ -360,13 +359,17 @@ article p{
 }
 
 aside{
-    width: 1296px;
+    max-width: 1296px;
     margin: 0 auto;
 }
 
 .other{
     margin-top: 48px;
     margin-bottom: 48px;
+}
+
+.other h3{
+    margin-left: 6px;
 }
 
 h3{
@@ -444,6 +447,7 @@ footer{
 .footer-nav{
     max-width: 1296px;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
 .jcsb{
